@@ -23,15 +23,8 @@ export default function HomePage() {
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <Link
-            href="/compress-image"
-            className="rounded-2xl bg-white px-6 py-3 font-medium text-black transition hover:scale-105"
-          >
-            เริ่มใช้งานฟรี
-          </Link>
-
-          <Link
-            href="/compress-image"
-            className="rounded-2xl border border-white/10 bg-white/5 px-6 py-3 font-medium text-white transition hover:bg-white/10"
+            href="/tools"
+            className="rounded-2xl border border-white/10 bg-white/5 px-8 py-4 font-medium text-white transition hover:scale-105 hover:bg-white/10"
           >
             ดูเครื่องมือทั้งหมด
           </Link>
